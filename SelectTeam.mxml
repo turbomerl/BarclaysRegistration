@@ -245,7 +245,7 @@
 			<s:Spacer height="80" />
 			<s:Label id="frontMessage" horizontalCenter="0"  text="PLEASE SELECT YOUR TEAM" />
 			<s:Spacer height="70" />
-			<s:DataGroup id="CarouselGroup" updateComplete="createListeners(event)" horizontalCenter="0"  width="1200" itemRenderer="views.renderer.logoItemRenderer">			
+			<s:DataGroup id="CarouselGroup" updateComplete="createListeners(event)" horizontalCenter="0"  width="1200" itemRenderer="registration.logoItemRenderer">			
 				<s:layout>
 					<s:TileLayout orientation="rows" clipAndEnableScrolling="true"
 								  requestedColumnCount="-1" requestedRowCount="-1"
